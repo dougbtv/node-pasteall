@@ -1,4 +1,4 @@
-module.exports = function() {
+var PasteAll = function() {
 
 	var querystring = require('querystring');
 	var http = require('http');
@@ -232,3 +232,7 @@ module.exports = function() {
 	}
 
 }
+
+pa = new PasteAll;
+
+exports.paste = pa.paste(codestring,language_name,callback);
