@@ -1,7 +1,7 @@
 {
   "name": "pasteall",
   "preferGlobal": true,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Doug Smith <info@laboratoryb.org>",
   "description": "Posts snippets to pasteall.org",
   "main": "./pasteall.js",

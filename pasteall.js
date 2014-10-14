@@ -231,8 +231,12 @@ var PasteAll = function() {
 
 	}
 
-}
+};
+
+// Take the abstractions and export them.
 
 pa = new PasteAll;
 
-exports.paste = pa.paste(codestring,language_name,callback);
+exports.paste = function(codestring,language_name,callback) {
+	pa.paste(codestring,language_name,callback);
+};
