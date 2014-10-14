@@ -39,7 +39,7 @@ Or, without a language specified.
 
 #### pasteall.paste(code_or_text, language, [callback(err,resulting_url)])
 
-* `code_or_text` is the path to your source image file (in PNG format)
+* `code_or_text` is the code or text you'd like to paste
 * `language` Is the language you'd like this highlighted as [optional]
 * `callback` when finished encoding, returns if there was an error (as boolean)
 
