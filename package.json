@@ -1,0 +1,21 @@
+{
+  "name": "pasteall",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "author": "Doug Smith <info@laboratoryb.org>",
+  "description": "Posts snippets to pasteall.org",
+  "main": "./pasteall.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dougbtv/node-pasteall"
+  },
+  "keywords": [
+    "pastebin",
+    "pasteall",
+    "paste"
+  ],
+  "dependencies": {
+    "querystring": "*",
+    "async": "*"
+  }
+}
