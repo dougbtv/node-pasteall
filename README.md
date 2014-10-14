@@ -41,7 +41,7 @@ Or, without a language specified.
 
 * `code_or_text` is the code or text you'd like to paste
 * `language` Is the language you'd like this highlighted as [optional]
-* `callback` when finished encoding, returns if there was an error (as boolean)
+* `callback` when finished returns error as first argument, or resulting URL as second when successful.
 
 Regarding the list of languages, here's some common ones:
 
