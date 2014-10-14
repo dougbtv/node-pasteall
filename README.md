@@ -6,7 +6,7 @@ A little interface to [pasteall.org](http://www.pasteall.org/) -- the world's be
 
 Just install with NPM, it's that easy.
 
-    npm install stegosaurus
+    npm install pasteall
 
 ## Example
 
